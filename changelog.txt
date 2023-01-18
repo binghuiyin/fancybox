@@ -1,5 +1,8 @@
 FancyBox Integration Module Changelog
 
+Version 2.0:
+Make it support Gallery 3.1.5
+
 version 1.5:
 - Added reminder to make sure that module is initialized before first use
 - Optimized so that G3 does combine JS/CSS code

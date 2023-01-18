@@ -52,7 +52,7 @@ input.ui-state-hover { background-image: url(/themes/greydragon/images/button-gr
   <div id="gd-admin-head">
     <div id="gd-admin-title"><?php echo t($admin_info->name) ?> - <?php echo $version ?></div>
     <div id="gd-admin-hlinks">
-      <ul><li><a href="http://blog.dragonsoft.us/gallery-3/" target="_blank"><?php echo t("Home") ?></a>&nbsp;|&nbsp;</li>
+      <ul>
         <?php if (isset($admin_info->support)){
 			?>
         <li><a href="<?php echo $admin_info->support;  ?>" target="_blank"><?php echo t("Support") ?></a>&nbsp;|&nbsp;</li>
@@ -64,7 +64,7 @@ input.ui-state-hover { background-image: url(/themes/greydragon/images/button-gr
 		?>
         <?php if (isset($admin_info->vote)){ ?>
         <li><a href="<?php echo $admin_info->vote;     ?>" target="_blank"><?php echo t("Vote") ?></a>&nbsp;|&nbsp;</li>
-        <?php}
+        <?php }
 		?>
       </ul>
     </div>
